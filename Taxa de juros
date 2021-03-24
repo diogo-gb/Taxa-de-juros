@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 19/03/2021
+Var
+// Seção de Declarações das variáveis 
+ valorprincipal: inteiro
+ juros: inteiro
+ periodo: inteiro
+ valortotal: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ 
+ escreva("Digite o valor principal")
+ leia(valorprincipal)
+ escreva("Digite a taxa de juros")
+ leia(juros)
+ escreva("Digite o período")
+ leia(periodo)
+ 
+ 
+ para juros se periodo := 1 faca
+ 
+ valortotal:= valorprincipal+ (valorprincipal*juros/100)
+ escreval(" ")
+ 
+ escreval("valor a pagar com juros: R$-")
+ 
+ fimpara
+ 
+ 
+ 
+
+Fimalgoritmo
